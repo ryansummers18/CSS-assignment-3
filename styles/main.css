@@ -7,7 +7,7 @@
 body {
     background: #b3dbe8;
     color: #000;
-    font-family: sans-serif; /*   add fonts here   */
+    font-family: Alegreya, Times, serif; /*   add fonts here   */
     font-size: 100%; /* DO NOT change */
     margin: 0; /* DO NOT change */
 }
@@ -48,7 +48,7 @@ aside {
 
 h1, h2 {
     margin: 0;
-    font-family: serif;  /*   add fonts here   */
+    font-family: Catamaran, Helvetica, sans-serif; /*   add fonts here   */
 }
 
 article h1 {
@@ -111,3 +111,27 @@ aside a:focus, aside a:hover {
 }
 
 /* media queries */
+@media (max-width: 700px) {
+  aside{
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  article{
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+  #top-image-container{
+    padding: 0;
+    display: none;
+  }
+    #sidebar2{
+      float: none;
+      width: 100%;
+      margin: 0;
+    }
+    #container{
+      margin: 0;
+    }
+}
